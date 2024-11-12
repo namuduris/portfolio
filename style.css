@@ -1,0 +1,116 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.portfolio-container {
+    width: 700px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.name-section {
+    background-color: #f7c6b7;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-section {
+    display: flex;
+}
+
+.photo {
+    width: 100px;
+    height: 120px;
+    background-color: #f0d8b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.details {
+    flex-grow: 1;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.subject, .contacts, .elab-status, .real-world-task, .certifications, .nptel, .coding-competitions, .lab{
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.subject {
+    background-color: #fff;
+}
+
+.contacts {
+    background-color: #e3efff;
+}
+
+.elab-status {
+    text-align: center;
+    font-weight: bold;
+}
+
+.real-world-task {
+    background-color: #e3efff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.certifications {
+    background-color: #f7c6b7;
+    text-align: center;
+}
+
+.nptel {
+    background-color: #eee;
+    text-align: center;
+    font-weight: bold;
+}
+
+.coding-competitions {
+    background-color: #e3efff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signature {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.lab{
+    background-color: #e3efff;
+    text-align: center;
+    font-weight: bold;
+}
